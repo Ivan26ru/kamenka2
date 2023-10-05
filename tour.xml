@@ -1,4 +1,4 @@
-﻿<krpano version="1.21" title="Каменко">
+﻿<krpano version="1.21" title="Каменка">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -64,11 +64,11 @@
 	-->
 	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
 <!--	 <include url="skin/vtourskin_design_glass.xml"       />-->
-	 <include url="skin/vtourskin_design_ultra_light.xml" />
 	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
 	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
 	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
 
+<!--	 <include url="skin/vtourskin_design_ultra_light.xml" />-->
 	 <include url="include/navigations.xml" />
 
 
