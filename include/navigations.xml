@@ -1,3 +1,73 @@
 <krpano>
 
+    <setting_data
+            top="30"
+            right="30"
+            left="30"
+            bottom="30"
+    />
+
+    <style name="header__elem_style"
+           type="text"
+           keep="true"
+           bg="false"
+           css="font-size:14px;font-weight:normal;padding:10px;color:#ffffff;"
+           bgroundedge="0"
+           align="lefttop"
+    />
+
+    <layer name="logo"
+           url="%SWFPATH%/media/logo.png"
+           keep="true"
+           align="righttop"
+           x="get:setting_data.right"
+           y="get:setting_data.top"
+           scale="1" scalechildren="true"
+    />
+
+
+    <layer name="header"
+           keep="true"
+           align="centertop"
+           x="0"
+           y="get:setting_data.top"
+           bg="true"
+           type="container"
+           bgcolor="0x000000"
+           flowchildren="h"
+
+           childflowspacing="30"
+           bgborder="1"
+    >
+        <layer name="header__elem_1"
+               style="header__elem_style"
+               html="О нас"
+        />
+        <layer name="header__elem_2"
+               style="header__elem_style"
+               html="Перейти на сайт"
+        />
+        <layer name="header__elem_3"
+               style="header__elem_style"
+               html="Контакты"
+        />
+    </layer>
+
+
+    <!--    <layer name="my_skin_title"-->
+    <!--           type="text"-->
+    <!--           align="lefttop"-->
+    <!--           edge="leftbottom"-->
+    <!--           x="10"-->
+    <!--           y="0"-->
+    <!--           zorder="4"-->
+    <!--           enabled="false"-->
+    <!--           bg="false"-->
+    <!--           css="calc:skin_settings.design_text_css + ' text-align:left; font-style:italic; font-size:12px;'"-->
+    <!--           txtshadow="get:skin_settings.design_text_txtshadow"-->
+    <!--           visible="true"-->
+    <!--           onautosized="skin_video_updateseekbarwidth();"-->
+    <!--           html="aasdf"-->
+    <!--    />-->
+
 </krpano>
