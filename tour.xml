@@ -68,7 +68,7 @@
 	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
 	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
 
-<!--	 <include url="skin/vtourskin_design_ultra_light.xml" />-->
+	 <include url="skin/vtourskin_design_ultra_light.xml" />
 	 <include url="include/navigations.xml" />
 
 

@@ -7,13 +7,16 @@
             bottom="30"
     />
 
-    <style name="header__elem_style"
+    <style name="text_style"
            type="text"
            keep="true"
            bg="false"
-           css="font-size:14px;font-weight:normal;padding:10px;color:#ffffff;"
+           css="font-size:16px;font-weight:normal;padding:5px;color:#ffffff;"
            bgroundedge="0"
-           align="lefttop"
+    />
+
+    <style name="right__text_style"
+           align="right"
     />
 
     <layer name="logo"
@@ -22,7 +25,8 @@
            align="righttop"
            x="get:setting_data.right"
            y="get:setting_data.top"
-           scale="1" scalechildren="true"
+           scale="1"
+           scalechildren="true"
     />
 
 
@@ -33,24 +37,91 @@
            y="get:setting_data.top"
            bg="true"
            type="container"
-           bgcolor="0x000000"
            flowchildren="h"
 
            childflowspacing="30"
-           bgborder="1"
     >
         <layer name="header__elem_1"
-               style="header__elem_style"
+               style="text_style"
                html="О нас"
+               onclick="openurl('https://www.resident-house.ru/o-kompanii/',_blank);"
+
         />
         <layer name="header__elem_2"
-               style="header__elem_style"
+               style="text_style"
                html="Перейти на сайт"
+               onclick="openurl('https://www.resident-house.ru',_blank);"
+
         />
         <layer name="header__elem_3"
-               style="header__elem_style"
+               style="text_style"
                html="Контакты"
+               onclick="openurl('https://www.resident-house.ru/kontakty/',_blank);"
+
         />
+    </layer>
+
+
+    <layer name="right"
+           keep="true"
+           align="rightcenter"
+           x="get:setting_data.right"
+           y="0"
+           bg="true"
+           type="container"
+
+           flow="true"
+           flowchildren="v"
+
+           childflowspacing="0"
+    >
+        <layer name="right__elem_1"
+               style="text_style|right__text_style"
+               html="+7 (495) 120-80-09"
+               onclick="openurl('tel:+74951208009',_self);"
+        />
+        <layer name="right__elem_2"
+               style="text_style|right__text_style"
+               html="www.resident-house.ru"
+               onclick="openurl('https://www.resident-house.ru',_blank);"
+        />
+        <layer name="right__elem_3"
+               style="text_style|right__text_style"
+               type="image"
+               flowspacing="30"
+               url="%SWFPATH%/media/rezadenciya.png"
+               bgroundedge="12"
+        />
+    </layer>
+
+    <layer name="left"
+           keep="true"
+           align="leftcenter"
+           x="get:setting_data.right"
+           y="0"
+           bg="true"
+           type="container"
+
+           flow="true"
+           flowchildren="v"
+
+           childflowspacing="10"
+    >
+        <layer name="left__elem_1"
+               style=""
+               type="image"
+               url="%SWFPATH%/media/1etaz.png"
+               bgroundedge="12"
+               onclick="openurl('https://www.resident-house.ru',_blank);"
+        />
+        <layer name="left__elem_2"
+               style=""
+               type="image"
+               url="%SWFPATH%/media/2etaz.png"
+               bgroundedge="12"
+               onclick="openurl('https://www.resident-house.ru',_blank);"
+       />
+
     </layer>
 
 
@@ -68,6 +139,6 @@
     <!--           visible="true"-->
     <!--           onautosized="skin_video_updateseekbarwidth();"-->
     <!--           html="aasdf"-->
-    <!--    />-->
+
 
 </krpano>
