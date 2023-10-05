@@ -120,25 +120,38 @@
                url="%SWFPATH%/media/2etaz.png"
                bgroundedge="12"
                onclick="openurl('https://www.resident-house.ru',_blank);"
-       />
+        />
 
     </layer>
 
 
-    <!--    <layer name="my_skin_title"-->
-    <!--           type="text"-->
-    <!--           align="lefttop"-->
-    <!--           edge="leftbottom"-->
-    <!--           x="10"-->
-    <!--           y="0"-->
-    <!--           zorder="4"-->
-    <!--           enabled="false"-->
-    <!--           bg="false"-->
-    <!--           css="calc:skin_settings.design_text_css + ' text-align:left; font-style:italic; font-size:12px;'"-->
-    <!--           txtshadow="get:skin_settings.design_text_txtshadow"-->
-    <!--           visible="true"-->
-    <!--           onautosized="skin_video_updateseekbarwidth();"-->
-    <!--           html="aasdf"-->
+    <action name="action_mobile" keep="true">
+        <!-- var -->
+
+        set(layer[logo].visible,false);
+        set(layer[left].visible,false);
+        set(layer[right].visible,false);
+
+
+        <!--        set(style[style_label_text].visible,false);-->
+        <!--        set(layer[teh_icon].url,"%VIEWER%/skin/teh_icon_notext.png");-->
+        <!--        set(layer[map].visible,false);-->
+        <!--        set(layer[left_menu].visible,false);-->
+    </action>
+
+    <action name="action_mobile-no" keep="true">
+        set(layer[logo].visible,true);
+        set(layer[left].visible,true);
+        set(layer[right].visible,true);
+
+        <!--        set(layer[teh_icon].url,"%VIEWER%/skin/teh_icon.png");-->
+        <!--        set(layer[map].visible,true);-->
+        <!--        set(layer[left_menu].visible,true);-->
+    </action>
+
+    <events name="mobile" keep="true"
+            onresize="if(stagewidth LT 1000, action_mobile(), action_mobile-no());"
+    />
 
 
 </krpano>
