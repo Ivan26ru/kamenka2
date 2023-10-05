@@ -153,5 +153,20 @@
             onresize="if(stagewidth LT 1000, action_mobile(), action_mobile-no());"
     />
 
+    <plugin name="soundinterface"
+            url.html5="%VIEWER%/plugins/soundinterface.js"
+            url.flash="%VIEWER%/plugins/soundinterface.swf"
+            preload="true"
+            rootpath=""
+            volume="0.3"
+            mute="false"
+            panningmodel="simple"
+            worldscale="1.0"
+            autopause="true"
+            autounlock="true"
+    />
+    <action name="custom_startup" autorun="onstart">
 
+        playsound(bgsnd, '%SWFPATH%/media/bg_sound.m4a', 0, 0.2);
+    </action>
 </krpano>
