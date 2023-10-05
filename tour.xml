@@ -1,4 +1,4 @@
-﻿<krpano version="1.21" title="Virtual Tour">
+﻿<krpano version="1.21" title="Каменко">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -59,7 +59,7 @@
 	               />
 
 	<!--
-	    For an alternative skin design either change the <skin_settings> values 
+	    For an alternative skin design either change the <skin_settings> values
 	    from above or optionally include one of the predefined designs from below.
 	-->
 	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
@@ -68,11 +68,13 @@
 	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
 	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
 	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
-	
 
-	
+	 <include url="include/navigations.xml" />
+
+
+
 	<scene name="scene_IMG_8547_clcwcjckdacwcicw" title="IMG_8547 панорама" onstart="" thumburl="panos/IMG_8547_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -86,7 +88,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8571_clcwcjckdacwcicw" title="IMG_8571 панорама" onstart="" thumburl="panos/IMG_8571_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -100,7 +102,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8643_clcwcjckdacwcicw" title="IMG_8643 панорама" onstart="" thumburl="panos/IMG_8643_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -114,7 +116,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8670_clcwcjckdacwcicw" title="IMG_8670 панорама" onstart="" thumburl="panos/IMG_8670_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -128,7 +130,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8694_clcwcjckdacwcicw" title="IMG_8694 панорама" onstart="" thumburl="panos/IMG_8694_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -142,7 +144,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8766_clcwcjckdacwcicw" title="IMG_8766 панорама" onstart="" thumburl="panos/IMG_8766_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -156,7 +158,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8814_clcwcjckdacwcicw" title="IMG_8814 панорама" onstart="" thumburl="panos/IMG_8814_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -170,7 +172,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8850_clcwcjckdacwcicw" title="IMG_8850 панорама" onstart="" thumburl="panos/IMG_8850_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -184,7 +186,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8893_clcwcjckdacwcicw" title="IMG_8893 панорама" onstart="" thumburl="panos/IMG_8893_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -198,7 +200,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8917_clcwcjckdacwcicw" title="IMG_8917 панорама" onstart="" thumburl="panos/IMG_8917_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -212,7 +214,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8941_clcwcjckdacwcicw" title="IMG_8941 панорама" onstart="" thumburl="panos/IMG_8941_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -226,7 +228,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8965_clcwcjckdacwcicw" title="IMG_8965 панорама" onstart="" thumburl="panos/IMG_8965_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -240,7 +242,7 @@
 	</scene>
 
 	<scene name="scene_IMG_8989_clcwcjckdacwcicw" title="IMG_8989 панорама" onstart="" thumburl="panos/IMG_8989_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
+
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
