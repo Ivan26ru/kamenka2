@@ -20,13 +20,15 @@
     />
 
     <layer name="logo"
-           url="%SWFPATH%/media/logo.png"
+           url="%SWFPATH%/media/millenium.png"
            keep="true"
            align="righttop"
            x="get:setting_data.right"
            y="get:setting_data.top"
            scale="1"
            scalechildren="true"
+           width="246"
+           height="prop"
     />
 
 
@@ -66,7 +68,7 @@
            keep="true"
            align="rightcenter"
            x="get:setting_data.right"
-           y="0"
+           y="-95"
            bg="true"
            type="container"
 
@@ -75,24 +77,43 @@
 
            childflowspacing="0"
     >
+
         <layer name="right__elem_1"
                style="text_style|right__text_style"
                html="+7 (495) 120-80-09"
                onclick="openurl('tel:+74951208009',_self);"
         />
+
         <layer name="right__elem_2"
                style="text_style|right__text_style"
                html="www.resident-house.ru"
                onclick="openurl('https://www.resident-house.ru',_blank);"
         />
-        <layer name="right__elem_3"
-               style="text_style|right__text_style"
-               type="image"
-               flowspacing="30"
-               url="%SWFPATH%/media/rezadenciya.png"
-               bgroundedge="12"
-        />
     </layer>
+
+    <layer name="right__elem_3"
+           style="text_style|right__text_style"
+           type="image"
+           flowspacing="30"
+           url="%SWFPATH%/media/rezadenciya.png"
+           bgroundedge="12"
+           width="180"
+           height="90"
+           x="get:setting_data.right"
+    />
+
+    <layer name="right__elem_4"
+           style="text_style|right__text_style"
+           type="image"
+           flowspacing="30"
+           url="%SWFPATH%/media/leon.png"
+           bgroundedge="12"
+           x="85"
+           y="110"
+           width="61"
+           height="prop"
+           align="rightcenter"
+    />
 
     <layer name="left"
            keep="true"
@@ -113,6 +134,8 @@
                url="%SWFPATH%/media/1etaz.png"
                bgroundedge="12"
                onclick="openurl('https://www.resident-house.ru',_blank);"
+               width="180"
+               height="prop"
         />
         <layer name="left__elem_2"
                style=""
@@ -120,6 +143,8 @@
                url="%SWFPATH%/media/2etaz.png"
                bgroundedge="12"
                onclick="openurl('https://www.resident-house.ru',_blank);"
+               width="180"
+               height="prop"
         />
 
     </layer>
