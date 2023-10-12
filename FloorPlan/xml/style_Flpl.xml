@@ -23,9 +23,9 @@
 					
 					
 	 <!-- ///////   Контейнер под план FLAT  /////// -->
-	<style name="flpl_pano" keep="true" type="krpano" width="100%" height="100%" scale="1" alpha="0" enabled="false" maskchildren="true" zorder="55" parent="plan_cont_fp2" 
+	<style name="flpl_pano" keep="true" type="krpano" width="100%" height="100%" scale="1" alpha="0" enabled="false" maskchildren="true" zorder="55" parent="plan_cont_fp2"
 		scalemode="scale" scalechildren="true" capturefocus="false" ishtmlelement="true" bgcapture="true" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0"  bg="false" bgcolor="0x222222" bgalpha="0"  
-		 plan_ur=" " multires="" title_fp="" start_scene="" comp_fp="0" heading_rad="0"  flpl="true" pit_scale="0.3" onclick="closeList_flpl();"  
+		 plan_ur=" " multires="" title_fp="" start_scene="" comp_fp="0" heading_rad="0"  flpl="true" pit_scale="0.3" onclick="closeList_flpl();"
 		onloaded="calc(pl, plan_settings.url_plan + 'plan/' + plan_ur); showpano(*pl, *multires, *edit_flpl, *name , *heading_rad, *pit_scale, *comp_fp); " 
 	/>   
 	<!-- Раздвигать окно  -->		  
@@ -48,7 +48,7 @@
  
 		<!-- шапка перетаскивание -->
 		<layer name="plan_top_fp" keep="true" type="container"  width="100%" height="15" bgcapture="true" zorder="55" cursor="move" parent="cont_fp_all"
-				bgcolor="0xffffff" bgalpha="0.0" bgborder="0 0xffffff 0.0" bgroundedge="0" bgshadow="0 0 10 0x000000 0.0"   
+				bgcolor="0xffffff" bgalpha="0.0" bgborder="0 0xffffff 0.0" bgroundedge="0" bgshadow="0 0 10 0x000000 0.0"
 				ondown="dragPlan()"  />
 				
 		<!-- Полный экран crop="0|0|50|50"-->
@@ -125,7 +125,7 @@
 
 	<!--  parent="cont_fp_all" -->
 	<combobox_design name="cb_flpl" margin="0" open_close_speed="0.15"  maxopenheight="1000"  >
-		<style name="combobox_container_style" bgalpha="0.0" bgcolor="0xFFFFFF" bgborder="0 0xFFFFFF 0.5" bgroundedge="3" bgshadow="0 0 3 0x000000 0.0" align="top" zorder="56" y="3" x="0"  parent="cont_fp_all" />
+		<style name="combobox_container_style" bgalpha="0.5" bgcolor="0x000000" bgborder="0 0xFFFFFF 0.5" bgroundedge="3" bgshadow="0 0 3 0x000000 0.0" align="top" zorder="56" y="3" x="0"  parent="cont_fp_all" />
 		<style name="combobox_marker_style"  css="color:#ffffff; font-size:14px; " bg="false" txtshadow="0 0 2 0x000000 0" zorder="50" />
 		<style name="combobox_item_style" css="font-family:Verdana; color:#ffffff; font-size:15px;" padding="4 4" bg="false" bgcolor="0x000000" bgalpha="0.3" bgroundedge="3" txtshadow="0 0 4 0x000000 1.0" />
 	</combobox_design>
