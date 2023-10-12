@@ -1,7 +1,7 @@
 <krpano>
 
 	<plan_settings  
-			editor=""
+			editor="екгу"
 			url_plan="%FIRSTXML%/FloorPlan/"
 			start_open_plan="true"
 			start_open_plan_mobila="true"
@@ -11,7 +11,7 @@
 			pointv_url_1="eye_1.png"
 			pointv_url_2="eye_2.png"
 			pointv_url_3="eye_3.png"
-			radar_scale="0.2"
+			radar_scale="0.4"
 			loadscene_blend="OPENBLEND(1.5, 0.0, 0.6, 0.5, easeOutQuad)"
 			compass_enabled="true"
 			start_open_compass="false"
@@ -62,16 +62,16 @@
 
 	
 	<!--  Plan Container  -->
-	<layer name="cont_fp_all"  style="cont_fp" onloaded="copy_param()" width="300" height="300" x="64" y="38" align="lefttop" edge="lefttop" />
+	<layer name="cont_fp_all"  style="cont_fp" onloaded="copy_param()" width="303" height="321" x="64" y="38" align="lefttop" edge="lefttop" />
 	
 	<!--  Container of plans and buttons  -->
-	<layer name="plan_cont_fp2"  style="cont_fp2" bgborder="1,1,1,1 0x7A7A7A 1.00" bgroundedge="6 6 6 6" bgshadow="0 0 15 0x000000 0.50" bgcolor="0x233e42" bgalpha="0.38" />
+	<layer name="plan_cont_fp2"  style="cont_fp2" bgborder="1,1,1,1 0x7A7A7A 1.00" bgroundedge="6 6 6 6" bgshadow="0 0 15 0x000000 0.50" bgalpha="1" />
 
 	
 	<!-- ****************          PLANS          ******************* -->
 
-	<layer name="plan_2"  style="flpl_pano" plan_ur="2.png" title_fp="2 этаж" />
 	<layer name="plan_1"  style="flpl_pano" plan_ur="1.png" title_fp="1 этаж" />
+	<layer name="plan_2"  style="flpl_pano" plan_ur="2.png" title_fp="2 этаж" />
 	
 
 	<!-- ****************          POINTS          ******************* -->
