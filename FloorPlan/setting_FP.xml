@@ -62,7 +62,7 @@
 
 	
 	<!--  Plan Container  -->
-	<layer name="cont_fp_all"  style="cont_fp" onloaded="copy_param()" width="452" height="406" x="64" y="38" align="lefttop" edge="lefttop" />
+	<layer name="cont_fp_all"  style="cont_fp" onloaded="copy_param()" width="300" height="300" x="30" y="30" align="lefttop" edge="lefttop" />
 	
 	<!--  Container of plans and buttons  -->
 	<layer name="plan_cont_fp2"  style="cont_fp2" bgborder="1,1,1,1 0x7A7A7A 1.00" bgroundedge="6 6 6 6" bgshadow="0 0 15 0x000000 0.50" bgalpha="1" />

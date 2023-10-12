@@ -153,9 +153,15 @@
     <action name="action_mobile" keep="true">
         <!-- var -->
 
+        set(layer[right__elem_3].visible,false);
+
         set(layer[logo].visible,false);
         set(layer[left].visible,false);
         set(layer[right].visible,false);
+
+        set(layer[open_flpl_b].y,80);
+
+
 
 
         <!--        set(style[style_label_text].visible,false);-->
@@ -165,9 +171,16 @@
     </action>
 
     <action name="action_mobile-no" keep="true">
+        set(layer[right__elem_3].visible,true);
+
         set(layer[logo].visible,true);
         set(layer[left].visible,true);
         set(layer[right].visible,true);
+
+        set(layer[open_flpl_b].y,30);
+
+
+
 
         <!--        set(layer[teh_icon].url,"%VIEWER%/skin/teh_icon.png");-->
         <!--        set(layer[map].visible,true);-->

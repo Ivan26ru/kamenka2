@@ -39,7 +39,7 @@
 	
 
 	<!-- Открыть план -->
-	<layer name="open_flpl_b" keep="true" align="righttop"  url="%FIRSTXML%/FloorPlan/image/plan_button.png"   x="10"  y="120" width="35" height="prop" onclick="open_flpl()"  alpha="0.7" 
+	<layer name="open_flpl_b" keep="true" align="lefttop"  url="%FIRSTXML%/FloorPlan/image/plan_button.png"   x="30"  y="30" width="35" height="prop" onclick="open_flpl()"  alpha="0.7"
 				onover="set(alpha,1)" onout="set(alpha,0.7)"  />  
 
 	
