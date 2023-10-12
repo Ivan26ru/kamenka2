@@ -1,0 +1,85 @@
+<krpano>
+
+	<plan_settings
+			editor="true"
+			url_plan="%FIRSTXML%/FloorPlan/"
+			start_open_plan="true"
+			start_open_plan_mobila="true"
+			point_url_1="start.png"
+			point_url_2="spot_off.png"
+			point_url_3="activ.png"
+			pointv_url_1="eye_1.png"
+			pointv_url_2="eye_2.png"
+			pointv_url_3="eye_3.png"
+			radar_scale="0.2"
+			loadscene_blend="OPENBLEND(1.5, 0.0, 0.6, 0.5, easeOutQuad)"
+			compass_enabled="true"
+			start_open_compass="false"
+			compass_on_plan="true"
+			title_spot="true"
+			title_v="true"
+			loadsc_flags="MERGE"
+			design_bgcolor_cb="8732208"
+			click_spot_close_plan="true"
+			click_v_close_plan="false"
+			click_close_plan="false"
+			onhover_button_open_plan="false"
+			width_mobile="0.8"
+			height_mobile="0.9"
+			name_firstxml="tour"
+			list_plan="true"
+			button_fullscreen="true"
+			angle_placemark="true"
+			open_plan_resetting_size="false"
+			backup="false"
+
+	/>
+
+
+	<action name="prealignFLPL" autorun="onstart">
+		set(scene[scene_img_8547_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8571_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8643_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8670_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8694_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8766_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8814_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8850_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8893_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8917_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8941_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8965_clcwcjckdacwcicw].imgpr,0|0|0);
+		set(scene[scene_img_8989_clcwcjckdacwcicw].imgpr,0|0|0);
+	</action>
+
+
+	<!-- popup text style when hovering the mouse pointer over a dot  -->
+	<textstyle name="showtext_1" origin="cursor" edge="bottom" xoffset="0" yoffset="-3" fadeintime="0.0" showtime="0.1" fadetime="0.0" font="Verdana" fontsize="12.0" bold="false" italic="false" textcolor="0xffffff" textalign="none" padding="3" css="" background="true" backgroundcolor="0x555555" backgroundalpha="0.8" border="false" roundedge="3" shadow="0.0" shadowrange="4.0" shadowangle="45" shadowcolor="0x000000" shadowalpha="1.0" textshadow="0.0" textshadowrange="4.0" textshadowangle="45" textshadowcolor="0x000000" textshadowalpha="1.0" noclip="true" />
+
+	<style name="pointflpl" keep="true" type="image" edge="center" distorted="true" width="1" height="prop" zoom="true" scale="0.4" onclick="load_scene_tour(*linkedscene,*name );" ondown="drag_p()" linkedscene="" plan="" title="" onloaded="calc(url, plan_settings.url_plan + 'iconPoint/' + plan_settings.point_url_1);" onhover="showtext(*title, showtext_1);" url="%FIRSTXML%/FloorPlan/iconPoint/start.png" />
+
+	<style name="pointflpl_v" keep="true" type="image" edge="center" distorted="true" width="1" height="prop" scale="0.5" zoom="true" onclick="" ondown="drag_p()" linkedscene="" plan="" title="" icon_1="" icon_2="" onhover="showtext(*title, showtext_1);" onloaded="calc(url, plan_settings.url_plan + 'iconPoint/' + icon_1 )" url="%FIRSTXML%/FloorPlan/iconPoint/eye_1.png" />
+
+
+	<!--  Plan Container  -->
+	<layer name="cont_fp_all"  style="cont_fp" onloaded="copy_param()" width="349" height="321" x="64" y="38" align="lefttop" edge="lefttop" />
+
+	<!--  Container of plans and buttons  -->
+	<layer name="plan_cont_fp2"  style="cont_fp2" bgborder="1,1,1,1 0x7A7A7A 1.00" bgroundedge="6 6 6 6" bgshadow="0 0 15 0x000000 0.50" bgcolor="0x233e42" bgalpha="0.38" />
+
+
+	<!-- ****************          PLANS          ******************* -->
+
+	<layer name="plan_1"  style="flpl_pano" plan_ur="1.png" title_fp="1 этаж" />
+	<layer name="plan_2"  style="flpl_pano" plan_ur="2.png" title_fp="2 этаж" />
+
+
+	<!-- ****************          POINTS          ******************* -->
+
+
+
+	<!-- ****************          POINTS VIEW          ******************* -->
+
+
+
+</krpano>
