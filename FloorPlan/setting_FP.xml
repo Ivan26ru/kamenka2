@@ -3,8 +3,8 @@
 	<plan_settings  
 			editor="false"
 			url_plan="%FIRSTXML%/FloorPlan/"
-			start_open_plan="true"
-			start_open_plan_mobila="true"
+			start_open_plan="false"
+			start_open_plan_mobila="false"
 			point_url_1="start.png"
 			point_url_2="spot_off.png"
 			point_url_3="activ.png"
