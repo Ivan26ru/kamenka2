@@ -80,7 +80,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="-216.422" vlookat="4.210" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8547_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -112,7 +112,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="-171.040" vlookat="2.918" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8643_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -128,7 +128,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="130.712" vlookat="12.343" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8670_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -144,7 +144,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="-8.580" vlookat="6.086" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8694_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -160,7 +160,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="-30.320" vlookat="1.007" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8766_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -192,7 +192,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="-180.634" vlookat="7.530" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8850_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -208,7 +208,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="67.767" vlookat="-4.126" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8893_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -224,7 +224,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="78.363" vlookat="9.864" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8917_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -240,7 +240,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="71.356" vlookat="6.512" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8941_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -256,7 +256,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="-3.859" vlookat="3.859" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8965_clcwcjckdacwcicw.tiles/preview.jpg"/>
@@ -272,7 +272,7 @@
 
         <control bouncinglimits="calc:image.cube ? true : false"/>
 
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140"
+        <view hlookat="11.073" vlookat="12.080" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140"
               limitview="auto"/>
 
         <preview url="panos/IMG_8989_clcwcjckdacwcicw.tiles/preview.jpg"/>
