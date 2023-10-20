@@ -75,7 +75,7 @@
     <include url="%VIEWER%/plugins/popup_blur.xml" keep="true"/>
 
     <include url="add_hotspot/plugins_l/add_hotspot.xml" />
-    <include url="%VIEWER%/add_hotspot/plugins_l/editor/add_hotspot_2.xml"  />
+<!--    <include url="%VIEWER%/add_hotspot/plugins_l/editor/add_hotspot_2.xml"  />-->
 
 
     	<!-- *** add hotspt *** -->
