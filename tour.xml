@@ -74,6 +74,9 @@
     <include url="FloorPlan/xml/floorplan_SM.xml"/>
     <include url="%VIEWER%/plugins/popup_blur.xml" keep="true"/>
 
+    <include url="add_hotspot/plugins_l/add_hotspot.xml" />
+    <include url="%VIEWER%/add_hotspot/plugins_l/editor/add_hotspot_2.xml"  />
+
 
     <scene name="scene_IMG_8547_clcwcjckdacwcicw" title="1 IMG_8547 панорама" onstart=""
            thumburl="panos/IMG_8547_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
