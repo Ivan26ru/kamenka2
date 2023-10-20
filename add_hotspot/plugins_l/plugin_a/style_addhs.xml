@@ -21,7 +21,7 @@
 	<!-- <css_slaider path="add_hotspot/editor/css/style.css" />	 -->
 	
 	<!-- Style image  hotspot --> 
-	<style name="link_hs_sm" keep="false" type="image" width="100" height="prop"  zorder="5" depth="1000"  ondown.addevent="drag_LinkSM();" title="" drag_hs="true" adhs="true"  />
+	<style name="link_hs_sm" keep="false" type="image" width="50" height="prop"  zorder="5" depth="1000"  ondown.addevent="drag_LinkSM();" title="" drag_hs="true" adhs="true"  />
 
 	<!-- text hotspot style   editenterkey="newline" bgborder="1,1,1,1 0xffffff 1.0" --> 
     <style	name="text_hs_sm" keep="false" type="text" html="" capture="true" edge="center" width="" height="" alpha="1" scale="1"  zorder="6" 
