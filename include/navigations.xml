@@ -123,7 +123,7 @@
            keep="true"
            align="lefttop"
            x="get:setting_data.left"
-           y="80"
+           y="get:setting_data.top"
            scale="1"
            scalechildren="true"
            width="40"
@@ -145,21 +145,13 @@
 
            childflowspacing="10"
     >
-        <layer name="left__elem_1"
+
+        <layer name="open_flpl_b"
                style=""
                type="image"
-               url="%SWFPATH%/media/1etaz.png"
+               url="%SWFPATH%/media/map_icon.jpeg"
                bgroundedge="12"
-               onclick="openurl('https://www.resident-house.ru',_blank);"
-               width="180"
-               height="prop"
-        />
-        <layer name="left__elem_2"
-               style=""
-               type="image"
-               url="%SWFPATH%/media/2etaz.png"
-               bgroundedge="12"
-               onclick="openurl('https://www.resident-house.ru',_blank);"
+               onclick="open_flpl()"
                width="180"
                height="prop"
         />
