@@ -11,7 +11,7 @@
 			pointv_url_1="eye_1.png"
 			pointv_url_2="eye_2.png"
 			pointv_url_3="eye_3.png"
-			radar_scale="0.4"
+			radar_scale="0"
 			loadscene_blend="OPENBLEND(1.5, 0.0, 0.6, 0.5, easeOutQuad)"
 			compass_enabled="false"
 			start_open_compass="false"
