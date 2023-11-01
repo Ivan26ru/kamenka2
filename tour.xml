@@ -17,7 +17,7 @@
                    autotour="false"
                    littleplanetintro="false"
                    followmousecontrol="false"
-                   title="false"
+                   title="true"
                    thumbs="true"
                    thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
                    thumbs_opened="true"
@@ -334,7 +334,7 @@
 		<hotspot name="hsp_12_5" style="link_hs_sm" onclick="loadscene(scene_img_8893_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-18.2051" atv="1.7706" install_onclick="15" hs_linkedscene="scene_img_8893_clcwcjckdacwcicw" />
 	</scene>
 
-    <scene name="scene_IMG_9491_clcwcjckdacwcicw" title="IMG_9491 панорама" onstart="" thumburl="panos/IMG_9491_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9491_clcwcjckdacwcicw" title="14 IMG_9491 панорама" onstart="" thumburl="panos/IMG_9491_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -348,7 +348,7 @@
 
     </scene>
 
-    <scene name="scene_IMG_9503_clcwcjckdacwcicw" title="IMG_9503 панорама" onstart="" thumburl="panos/IMG_9503_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9503_clcwcjckdacwcicw" title="15 IMG_9503 панорама" onstart="" thumburl="panos/IMG_9503_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -362,7 +362,7 @@
 
     </scene>
 
-    <scene name="scene_IMG_9539_clcwcjckdacwcicw" title="IMG_9539 панорама" onstart="" thumburl="panos/IMG_9539_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9539_clcwcjckdacwcicw" title="16 IMG_9539 панорама" onstart="" thumburl="panos/IMG_9539_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -376,7 +376,7 @@
 
     </scene>
 
-    <scene name="scene_IMG_9623_clcwcjckdacwcicw" title="IMG_9623 панорама" onstart="" thumburl="panos/IMG_9623_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9623_clcwcjckdacwcicw" title="17 IMG_9623 панорама" onstart="" thumburl="panos/IMG_9623_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -390,7 +390,7 @@
 
     </scene>
 
-    <scene name="scene_IMG_9671_clcwcjckdacwcicw_" title="IMG_9671 панорама " onstart="" thumburl="panos/IMG_9671_clcwcjckdacwcicw_.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9671_clcwcjckdacwcicw_" title="18 IMG_9671 панорама " onstart="" thumburl="panos/IMG_9671_clcwcjckdacwcicw_.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -407,7 +407,7 @@
 		<hotspot name="hsp_17_2" style="link_hs_sm" onclick="loadscene(scene_img_8850_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="46.1299" atv="-6.1374" install_onclick="15" hs_linkedscene="scene_img_8850_clcwcjckdacwcicw" />
 	</scene>
 
-    <scene name="scene_IMG_9683_clcwcjckdacwcicw" title="IMG_9683 панорама" onstart="" thumburl="panos/IMG_9683_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9683_clcwcjckdacwcicw" title="19 IMG_9683 панорама" onstart="" thumburl="panos/IMG_9683_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -424,7 +424,7 @@
 		<hotspot name="hsp_18_2" style="link_hs_sm" onclick="loadscene(scene_img_8917_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-74.1320" atv="3.3819" install_onclick="15" hs_linkedscene="scene_img_8917_clcwcjckdacwcicw" />
 	</scene>
 
-    <scene name="scene_IMG_9731_clcwcjckdacwcicw" title="IMG_9731 панорама" onstart="" thumburl="panos/IMG_9731_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9731_clcwcjckdacwcicw" title="20 IMG_9731 панорама" onstart="" thumburl="panos/IMG_9731_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -440,7 +440,7 @@
 		<hotspot name="hsp_19_1" style="link_hs_sm" onclick="loadscene(scene_img_8917_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="3.2703" atv="5.3125" install_onclick="15" hs_linkedscene="scene_img_8917_clcwcjckdacwcicw" />
 	</scene>
 
-    <scene name="scene_IMG_9767_clcwcjckdacwcicw" title="IMG_9767 панорама" onstart="" thumburl="panos/IMG_9767_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+    <scene name="scene_IMG_9767_clcwcjckdacwcicw" title="21 IMG_9767 панорама" onstart="" thumburl="panos/IMG_9767_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
         <control bouncinglimits="calc:image.cube ? true : false" />
 
