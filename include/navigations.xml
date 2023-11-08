@@ -50,6 +50,18 @@
         />
     </layer>
 
+    <!-- logo_bg -->
+    <layer name="logo_bg"
+           url="%SWFPATH%/media/logo_bg.png"
+           keep="true"
+           align="center"
+           scale="1"
+           scalechildren="true"
+           width="80%"
+           height="prop"
+           enabled="false"
+    />
+
     <!-- rigth -->
     <layer name="logo"
            url="%SWFPATH%/media/millenium.png"
