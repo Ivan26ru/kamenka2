@@ -62,7 +62,8 @@ background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(159,159,159,1
 @media only screen and (max-width : 799px) {
 
 
-#controls,
+/*#controls,*/
+#slidecounter,
 #content{
 	display: none;
 }
