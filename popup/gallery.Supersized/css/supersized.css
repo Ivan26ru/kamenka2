@@ -110,7 +110,7 @@ img {
 	align-items: center;
 	justify-content: space-between;
 	height: 100%;
-	padding: 0 84px; /* Increase padding to give thumbnails room */
+	padding: 0 114px; /* Increase padding to give thumbnails room */
 	text-align: left;
 }
 
@@ -250,17 +250,17 @@ background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(159,159,159,1
 	}
 
 	#nextthumb, #prevthumb {
-		width: 80px;
-		height: 70px;
+
+		width: 60px;
+		height: 50px;
 	}
 
 	#controls {
 		align-items: center;
-		justify-content: s;
 		box-sizing: border-box;
 		width: 100%;
 		margin: 0 auto;
-		padding: 0 88px;
+		padding: 0 84px;
 	}
 
 	#navigation {
