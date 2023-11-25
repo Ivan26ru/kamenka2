@@ -38,6 +38,7 @@
 
 	<action name="prealignFLPL" autorun="onstart">
 		set(scene[scene_img_8547_clcwcjckdacwcicw].imgpr,0|0|0);
+ 		set(scene[scene_img_9623_clcwcjckdacwcicw].imgpr,0|0|0);
  		set(scene[scene_img_8571_clcwcjckdacwcicw].imgpr,0|0|0);
  		set(scene[scene_img_8643_clcwcjckdacwcicw].imgpr,0|0|0);
  		set(scene[scene_img_8670_clcwcjckdacwcicw].imgpr,0|0|0);
@@ -53,7 +54,6 @@
  		set(scene[scene_img_9491_clcwcjckdacwcicw].imgpr,0|0|0);
  		set(scene[scene_img_9503_clcwcjckdacwcicw].imgpr,0|0|0);
  		set(scene[scene_img_9539_clcwcjckdacwcicw].imgpr,0|0|0);
- 		set(scene[scene_img_9623_clcwcjckdacwcicw].imgpr,0|0|0);
  		set(scene[scene_img_9671_clcwcjckdacwcicw_].imgpr,0|0|0);
  		set(scene[scene_img_9683_clcwcjckdacwcicw].imgpr,0|0|0);
  		set(scene[scene_img_9731_clcwcjckdacwcicw].imgpr,0|0|0);
@@ -70,7 +70,7 @@
 
 	
 	<!--  Plan Container  -->
-	<layer name="cont_fp_all"  style="cont_fp" onloaded="copy_param()" height="300" align="lefttop" edge="lefttop" />
+	<layer name="cont_fp_all"  style="cont_fp" onloaded="copy_param()" width="592" height="553" align="lefttop" edge="lefttop" />
 	
 	<!--  Container of plans and buttons  -->
 	<layer name="plan_cont_fp2"  style="cont_fp2" bgborder="1,1,1,1 0x7A7A7A 1.00" bgroundedge="6 6 6 6" bgshadow="0 0 15 0x000000 0.50" bgalpha="1" />
@@ -78,8 +78,8 @@
 	
 	<!-- ****************          PLANS          ******************* -->
 
-	<layer name="plan_2"  style="flpl_pano" plan_ur="2.png" title_fp="2 этаж" />
-	<layer name="plan_1"  style="flpl_pano" plan_ur="1.png" title_fp="1 этаж" heading_rad="-175.87" />
+	<layer name="plan_2"  style="flpl_pano" plan_ur="2.png" title_fp="2 этаж" heading_rad="104.04" />
+	<layer name="plan_1"  style="flpl_pano" plan_ur="1.png" title_fp="1 этаж" heading_rad="88.48" />
 	
 
 	<!-- ****************          POINTS          ******************* -->
@@ -99,9 +99,11 @@
 	<hotspot name="scene_img_9731_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.3700" atv="-0.4233" linkedscene="scene_img_9731_clcwcjckdacwcicw" plan="plan_1" title="IMG_9731 панорама"/>
 	<hotspot name="scene_img_9767_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.2267" atv="-0.4400" linkedscene="scene_img_9767_clcwcjckdacwcicw" plan="plan_1" title="IMG_9767 панорама"/>
 	<hotspot name="scene_img_9503_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.1000" atv="-0.2867" linkedscene="scene_img_9503_clcwcjckdacwcicw" plan="plan_1" title="15 IMG_9503 панорама"/>
+	<hotspot name="scene_img_9539_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.0300" atv="-0.0733" linkedscene="scene_img_9539_clcwcjckdacwcicw" plan="plan_1" title="16 IMG_9539 панорама"/>
 	<hotspot name="scene_img_8670_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.0336" atv="-0.0509" linkedscene="scene_img_8670_clcwcjckdacwcicw" plan="plan_2" title="4 IMG_8670 панорама"/>
-	<hotspot name="scene_img_8694_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.0775" atv="-0.2824" linkedscene="scene_img_8694_clcwcjckdacwcicw" plan="plan_2" title="5 IMG_8694 панорама"/>
-	<hotspot name="scene_img_8766_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.3368" atv="0.0301" linkedscene="scene_img_8766_clcwcjckdacwcicw" plan="plan_2" title="6 IMG_8766 панорама"/>
+	<hotspot name="scene_img_8694_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.0975" atv="-0.2424" linkedscene="scene_img_8694_clcwcjckdacwcicw" plan="plan_2" title="5 IMG_8694 панорама"/>
+	<hotspot name="scene_img_8766_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.2768" atv="0.0201" linkedscene="scene_img_8766_clcwcjckdacwcicw" plan="plan_2" title="6 IMG_8766 панорама"/>
+	<hotspot name="scene_img_9491_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.2477" atv="0.0461" linkedscene="scene_img_9491_clcwcjckdacwcicw" plan="plan_2" title="14 IMG_9491 панорама"/>
 	
 
 	<!-- ****************          POINTS VIEW          ******************* -->

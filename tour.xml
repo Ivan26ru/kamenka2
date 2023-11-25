@@ -95,8 +95,25 @@
         </image>
 
     
-		<hotspot name="hsp_0_1" style="link_hs_sm" onclick="loadscene(scene_IMG_9623_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-179.6815" atv="2.1374" install_onclick="15" hs_linkedscene="scene_img_8989_clcwcjckdacwcicw" />
+		<hotspot name="hsp_0_1" style="link_hs_sm" onclick="loadscene(scene_IMG_9623_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-178.4653" atv="1.8099" install_onclick="15" hs_linkedscene="scene_img_8989_clcwcjckdacwcicw" />
 	</scene>
+
+    <scene name="scene_IMG_9623_clcwcjckdacwcicw" title="17 IMG_9623 панорама" onstart="" thumburl="panos/IMG_9623_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+
+        <control bouncinglimits="calc:image.cube ? true : false" />
+
+        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+        <preview url="panos/IMG_9623_clcwcjckdacwcicw.tiles/preview.jpg" />
+
+        <image>
+            <cube url="panos/IMG_9623_clcwcjckdacwcicw.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,1792,3584" />
+        </image>
+
+
+        <hotspot name="hsp_16_1" style="link_hs_sm" onclick="loadscene(scene_img_8547_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="10.0510" atv="6.2169" install_onclick="15" hs_linkedscene="scene_img_8547_clcwcjckdacwcicw" />
+        <hotspot name="hsp_16_2" style="link_hs_sm" onclick="loadscene(scene_img_8989_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="153.1481" atv="6.4833" install_onclick="15" hs_linkedscene="scene_img_8989_clcwcjckdacwcicw" />
+    </scene>
 
     <scene name="scene_IMG_8571_clcwcjckdacwcicw" title="2 IMG_8571 панорама" onstart=""
            thumburl="panos/IMG_8571_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -136,6 +153,8 @@
 		<hotspot name="hsp_2_1" style="link_hs_sm" onclick="loadscene(scene_img_8850_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-171.1551" atv="3.3774" install_onclick="15" hs_linkedscene="scene_img_8850_clcwcjckdacwcicw" />
 		<hotspot name="hsp_2_2" style="link_hs_sm" onclick="loadscene(scene_img_8571_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-28.8185" atv="3.5853" install_onclick="15" hs_linkedscene="scene_img_8571_clcwcjckdacwcicw" />
 		<hotspot name="hsp_2_3" style="link_hs_sm" onclick="loadscene(scene_img_8670_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="2.0299" atv="-15.7610" install_onclick="15" hs_linkedscene="scene_img_8670_clcwcjckdacwcicw" />
+	
+		<hotspot name="hsp_3_1" style="link_hs_sm" onclick="loadscene(scene_img_9539_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-96.2583" atv="2.4545" install_onclick="15" hs_linkedscene="scene_img_9539_clcwcjckdacwcicw" />
 	</scene>
 
     <scene name="scene_IMG_8670_clcwcjckdacwcicw" title="4 IMG_8670 панорама" onstart=""
@@ -154,8 +173,10 @@
 
     
 		<hotspot name="hsp_3_1" style="link_hs_sm" onclick="loadscene(scene_img_8643_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="378.3715" atv="41.0742" install_onclick="5" hs_linkedscene="scene_img_8643_clcwcjckdacwcicw" />
-		<hotspot name="hsp_3_2" style="link_hs_sm" onclick="loadscene(scene_img_8694_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-45.2537" atv="14.3133" install_onclick="5" hs_linkedscene="scene_img_8694_clcwcjckdacwcicw" />
+		<hotspot name="hsp_3_2" style="link_hs_sm" onclick="loadscene(scene_img_8694_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-43.8765" atv="13.9404" install_onclick="5" hs_linkedscene="scene_img_8694_clcwcjckdacwcicw" />
 		<hotspot name="hsp_3_3" style="link_hs_sm" onclick="loadscene(scene_img_8766_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-92.0006" atv="6.7324" install_onclick="15" hs_linkedscene="scene_img_8766_clcwcjckdacwcicw" />
+	
+		<hotspot name="hsp_4_1" style="link_hs_sm" onclick="loadscene(scene_img_9491_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="91.7562" atv="2.0942" install_onclick="15" hs_linkedscene="scene_img_9491_clcwcjckdacwcicw" />
 	</scene>
 
     <scene name="scene_IMG_8694_clcwcjckdacwcicw" title="5 IMG_8694 панорама" onstart=""
@@ -346,7 +367,9 @@
             <cube url="panos/IMG_9491_clcwcjckdacwcicw.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,1792,3584" />
         </image>
 
-    </scene>
+    
+		<hotspot name="hsp_14_1" style="link_hs_sm" onclick="loadscene(scene_img_8670_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-166.5280" atv="7.4226" install_onclick="15" hs_linkedscene="scene_img_8670_clcwcjckdacwcicw" />
+	</scene>
 
     <scene name="scene_IMG_9503_clcwcjckdacwcicw" title="15 IMG_9503 панорама" onstart="" thumburl="panos/IMG_9503_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 
@@ -377,23 +400,8 @@
             <cube url="panos/IMG_9539_clcwcjckdacwcicw.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,1792,3584" />
         </image>
 
-    </scene>
-
-    <scene name="scene_IMG_9623_clcwcjckdacwcicw" title="17 IMG_9623 панорама" onstart="" thumburl="panos/IMG_9623_clcwcjckdacwcicw.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-
-        <control bouncinglimits="calc:image.cube ? true : false" />
-
-        <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-        <preview url="panos/IMG_9623_clcwcjckdacwcicw.tiles/preview.jpg" />
-
-        <image>
-            <cube url="panos/IMG_9623_clcwcjckdacwcicw.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,1792,3584" />
-        </image>
-
     
-		<hotspot name="hsp_16_1" style="link_hs_sm" onclick="loadscene(scene_img_8547_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="10.0510" atv="6.2169" install_onclick="15" hs_linkedscene="scene_img_8547_clcwcjckdacwcicw" />
-		<hotspot name="hsp_16_2" style="link_hs_sm" onclick="loadscene(scene_img_8989_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="153.1481" atv="6.4833" install_onclick="15" hs_linkedscene="scene_img_8989_clcwcjckdacwcicw" />
+		<hotspot name="hsp_16_1" style="link_hs_sm" onclick="loadscene(scene_img_8643_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/hotspot_label.png" ath="-2.4179" atv="1.8587" install_onclick="5" hs_linkedscene="scene_img_8643_clcwcjckdacwcicw" />
 	</scene>
 
     <scene name="scene_IMG_9671_clcwcjckdacwcicw_" title="18 IMG_9671 панорама " onstart="" thumburl="panos/IMG_9671_clcwcjckdacwcicw_.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
