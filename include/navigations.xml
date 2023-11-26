@@ -158,16 +158,33 @@
            childflowspacing="10"
     >
 
-        <layer name="open_flpl_b"
+<!--        <layer name="open_flpl_b"-->
+<!--               style=""-->
+<!--               type="image"-->
+<!--               url="%SWFPATH%/media/map_icon.jpeg"-->
+<!--               bgroundedge="12"-->
+<!--               onclick="open_flpl()"-->
+<!--               width="180"-->
+<!--               height="prop"-->
+<!--        />-->
+        <layer name="left__elem_1"
                style=""
                type="image"
-               url="%SWFPATH%/media/map_icon.jpeg"
+               url="%SWFPATH%/media/1etaz.png"
                bgroundedge="12"
-               onclick="open_flpl()"
+               onclick="loadscene(scene_img_8547_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));open_flpl();"
                width="180"
                height="prop"
         />
-
+        <layer name="left__elem_2"
+               style=""
+               type="image"
+               url="%SWFPATH%/media/2etaz.png"
+               bgroundedge="12"
+               onclick="loadscene(scene_img_8670_clcwcjckdacwcicw,null,MERGE,BLEND(0.5));open_flpl();"
+               width="180"
+               height="prop"
+        />
     </layer>
 
 
