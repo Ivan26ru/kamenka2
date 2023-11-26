@@ -32,7 +32,6 @@
 			angle_placemark="true"
 			open_plan_resetting_size="false"
 			backup="false"
-			
 	/>
 
 
@@ -84,7 +83,7 @@
 
 	<!-- ****************          POINTS          ******************* -->
 
-	<hotspot name="scene_img_8547_clcwcjckdacwcicw" style="pointflpl" onclick="loadscv(scene_img_9683_clcwcjckdacwcicw,132.3487,0.0000,120.0000);" scale="0" ath="-0.2784" atv="0.0142" linkedscene="scene_img_8547_clcwcjckdacwcicw" plan="plan_1" title="1 IMG_8547 панорама"/>
+	<hotspot name="scene_img_8547_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.2784" atv="0.0142" linkedscene="scene_img_8547_clcwcjckdacwcicw" plan="plan_1" title="1 IMG_8547 панорама"/>
 	<hotspot name="scene_img_8571_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.1062" atv="-0.1949" linkedscene="scene_img_8571_clcwcjckdacwcicw" plan="plan_1" title="2 IMG_8571 панорама"/>
 	<hotspot name="scene_img_8643_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.1988" atv="-0.0803" linkedscene="scene_img_8643_clcwcjckdacwcicw" plan="plan_1" title="3 IMG_8643 панорама"/>
 	<hotspot name="scene_img_8814_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.1581" atv="-0.0975" linkedscene="scene_img_8814_clcwcjckdacwcicw" plan="plan_1" title="7 IMG_8814 панорама"/>
@@ -100,10 +99,11 @@
 	<hotspot name="scene_img_9767_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.2267" atv="-0.4400" linkedscene="scene_img_9767_clcwcjckdacwcicw" plan="plan_1" title="IMG_9767 панорама"/>
 	<hotspot name="scene_img_9503_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.1000" atv="-0.2867" linkedscene="scene_img_9503_clcwcjckdacwcicw" plan="plan_1" title="15 IMG_9503 панорама"/>
 	<hotspot name="scene_img_9539_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.0300" atv="-0.0733" linkedscene="scene_img_9539_clcwcjckdacwcicw" plan="plan_1" title="16 IMG_9539 панорама"/>
+	<hotspot name="scene_img_9623_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.3147" atv="0.2089" linkedscene="scene_img_9623_clcwcjckdacwcicw" plan="plan_1" title="17 IMG_9623 панорама"/>
+	<hotspot name="scene_img_9491_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.3020" atv="-0.0913" linkedscene="scene_img_9491_clcwcjckdacwcicw" plan="plan_1" title="14 IMG_9491 панорама"/>
 	<hotspot name="scene_img_8670_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.0336" atv="-0.0509" linkedscene="scene_img_8670_clcwcjckdacwcicw" plan="plan_2" title="4 IMG_8670 панорама"/>
 	<hotspot name="scene_img_8694_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.0975" atv="-0.2424" linkedscene="scene_img_8694_clcwcjckdacwcicw" plan="plan_2" title="5 IMG_8694 панорама"/>
 	<hotspot name="scene_img_8766_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="-0.2768" atv="0.0201" linkedscene="scene_img_8766_clcwcjckdacwcicw" plan="plan_2" title="6 IMG_8766 панорама"/>
-	<hotspot name="scene_img_9491_clcwcjckdacwcicw" style="pointflpl" scale="0.3" ath="0.2477" atv="0.0461" linkedscene="scene_img_9491_clcwcjckdacwcicw" plan="plan_2" title="14 IMG_9491 панорама"/>
 	
 
 	<!-- ****************          POINTS VIEW          ******************* -->
