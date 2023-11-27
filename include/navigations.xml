@@ -245,7 +245,7 @@
             url.flash="%VIEWER%/plugins/soundinterface.swf"
             preload="true"
             rootpath=""
-            volume="0.3"
+            volume="1"
             mute="false"
             panningmodel="simple"
             worldscale="1.0"
